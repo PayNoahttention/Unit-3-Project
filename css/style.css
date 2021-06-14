@@ -1,7 +1,16 @@
 * {
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* ------------------
-    Mobile CSS
+    CSS Basis
 -------------------- */
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background: #F5F5F5;
+}
+
