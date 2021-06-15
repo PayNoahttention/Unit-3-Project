@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     margin: 0 auto;
     background: #F5F5F5;
-    width: 320px;
+    min-width: 320px;
 }
 
 header {
@@ -87,7 +87,7 @@ fieldset {
     flex-direction: column;
 }
 
-.zip {
+.input-item.zip input {
     width: 50%;
 }
 
@@ -162,4 +162,29 @@ footer {
     margin: 0px 0px 50px 0px;
     font-size: 15px;
     color: #a8a8a8;
+}
+
+/* ------------------
+    MAIN STREAM MEDIA
+-------------------- */
+
+@media screen and (min-width: 768px) {
+    main {
+        width: 75%;
+        align-self: center;
+    }
+
+    .input-item {
+        flex-direction: row;
+    }
+
+    .input-item label{
+        flex: 1 75%;
+    }
+
+    .input-item.zip input {
+        width: 25%;
+        align-self: flex-start;
+    }
+
 }
