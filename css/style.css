@@ -195,12 +195,17 @@ button:focus {
         flex-direction: row;
     }
 
-    .input-item label{
+    .input-item label {
         flex-basis: 25%;
     }
 
+    .input-item input,
+    .input-item select {
+        flex-basis: 75%;
+    }
+
     .input-item.zip input {
-        width: 25%;
+        max-width: 25%;
     }
 
 }
