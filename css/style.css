@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 /* ------------------
@@ -12,5 +12,47 @@ body {
     flex-direction: column;
     margin: 0 auto;
     background: #F5F5F5;
+    width: 320px;
 }
 
+header {
+    background-color:  #316d95;
+    color: #FAFFFD;
+    text-align: center;
+    font-size: .6em;
+    max-height: 75px;
+    margin: 0;
+    padding: 10px;
+}
+
+h3 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.signup {
+    text-align: center;
+}
+
+.signup p {
+    font-size: 15px;
+   margin-top: 0;
+   color: #C9C9C9;
+}
+
+
+.thick,
+.slim {
+    border: none;
+    height: 4px;
+    background-color: #333;
+    width: 100%;
+}
+
+.thick {
+    height: 4px;
+}
+
+.slim {
+    height: 2px;
+}
