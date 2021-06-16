@@ -169,11 +169,14 @@ footer {
 -------------------- */
 
 input[type=text]:focus,
+input[type=email]:focus,
+input[type=tel]:focus,
 #state:focus,
 textarea:focus {
     background-color: white;
     border: black;
     transition: all .1s;
+    color: #a8a8a8
 }
 
 button:focus {
